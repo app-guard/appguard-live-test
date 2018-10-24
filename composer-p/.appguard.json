@@ -19,8 +19,7 @@
       "types": [
         "update_patch_version",
         "update_minor_version",
-        "update_major_version",
-        "bad345"
+        "update_major_version"
       ]
     }
   },
