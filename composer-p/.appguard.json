@@ -28,7 +28,7 @@
       {
         "sendmail": {
           "emails": "alexey.beloglazov@app-guard.io",
-          "subject": "New updates available",
+          "subject": "New updates available222",
           "message": "New updates available",
           "cc": "",
           "bcc": ""
