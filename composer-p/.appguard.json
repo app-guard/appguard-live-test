@@ -5,7 +5,7 @@
   "update_behaviors": {
     "xxx-0332": {
       "auto_start_updates": "no",
-      "skip_manual_testing": "no",
+      "skip_manual_testing": "yes",
       "types": [
         "update_patch_version",
         "update_minor_version",
