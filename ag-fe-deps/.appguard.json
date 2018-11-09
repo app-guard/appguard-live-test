@@ -1,0 +1,22 @@
+{
+"integrations": {
+  
+  },
+  "update_behaviors": {
+    "upd-10000007": {
+      "auto_start_updates": "no",
+      "types": [
+        "update_patch_version",
+        "update_minor_version",
+        "update_major_version"
+      ]
+    }
+  },
+  "events": {
+  
+
+
+  }
+}
+
+          
