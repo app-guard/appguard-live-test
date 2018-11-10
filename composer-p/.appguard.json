@@ -3,7 +3,7 @@
   
   },
   "update_behaviors": {
-    "xxx-0332": {
+    "xxx-0332-1": {
       "auto_start_updates": "no",
       "skip_manual_testing": "yes",
       "types": [
