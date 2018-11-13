@@ -1,6 +1,16 @@
 {
     "integrations": [],
-    "update_behaviors": [],
+    "update_behaviors": {
+        "updates/[task:id]": {
+      "auto_start_updates": "no",
+      "skip_manual_testing": "no",
+      "types": [
+        "update_patch_version",
+        "update_minor_version",
+        "update_major_version"
+      ]
+    }
+    },
     "events": {
  "test_passed": [
       {
