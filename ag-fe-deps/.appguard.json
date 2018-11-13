@@ -3,7 +3,7 @@
   
   },
   "update_behaviors": {
-    "dev-env-project-10000010-updates": {
+    "dev-env-10000007": {
       "auto_start_updates": "no",
       "skip_manual_testing": "no",
       "types": [
