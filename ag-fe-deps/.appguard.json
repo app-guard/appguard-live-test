@@ -6,7 +6,7 @@
       {
         "merge_branch": {
           "source": "updates/[task:id]",
-          "delete_after_merge": true,
+          "delete_after_merge": "yes",
           "target": ["dev3"]
         }
       }
