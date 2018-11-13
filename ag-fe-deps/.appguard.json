@@ -3,8 +3,9 @@
   
   },
   "update_behaviors": {
-    "upd-10000007": {
+    "dev-env-project-10000010-updates": {
       "auto_start_updates": "no",
+      "skip_manual_testing": "no",
       "types": [
         "update_patch_version",
         "update_minor_version",
