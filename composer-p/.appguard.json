@@ -3,16 +3,11 @@
   
   },
   "update_behaviors": {
-    "xxx-0332-1": {
-      "auto_start_updates": "no",
-      "skip_manual_testing": "no",
-      "types": [
-        "update_patch_version",
-        "update_minor_version",
-        "update_major_version"
-      ]
-    }
-  },
+        "source_branch": "dev",
+        "destination_branch": "updates/[task:id]/f",
+        "auto_start_updates": "no",
+        "skip_manual_testing": "no"
+    },
   "events": {
  
   }
