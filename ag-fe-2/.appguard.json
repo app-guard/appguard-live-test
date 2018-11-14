@@ -2,7 +2,7 @@
     "integrations": [],
     "update_behaviors": {
         "source_branch": "dev",
-        "destination_branch": "updates/[task:id]",
+        "destination_branch": "updates/[task:id]/f",
         "auto_start_updates": "no",
         "skip_manual_testing": "no"
     },
