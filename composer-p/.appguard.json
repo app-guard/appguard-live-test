@@ -4,7 +4,7 @@
   },
   "update_behavior": {
         "source_branch": "dev",
-        "destination_branch": "updates/[task:id]/f",
+        "destination_branch": "updates/[task:id]/stage",
         "auto_start_updates": "no",
         "skip_manual_testing": "no"
     },
