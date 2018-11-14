@@ -1,5 +1,5 @@
 {
     "integrations": {},
-    "update_behavior": [],
+    "update_behavior": {"source_branch": "dev134", "auto_start_updates": "no", "destination_branch": "updates/[task:id]/2", "skip_manual_testing": "no"},
     "events": {}
 }
