@@ -2,7 +2,7 @@
 "integrations": {
   
   },
-  "update_behaviors": {
+  "update_behavior": {
         "source_branch": "dev134",
         "destination_branch": "updates/[task:id]/2",
         "auto_start_updates": "no",
