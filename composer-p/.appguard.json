@@ -3,16 +3,12 @@
   
   },
   "update_behavior": {
-      "auto_start_updates": "no",
-      "skip_manual_testing": "no",
-      "source_branch": "xxx-0001111",
-      "destination_branch": "xxx-0001111"
-  },
+        "source_branch": "dev",
+        "destination_branch": "updates/[task:id]/f",
+        "auto_start_updates": "no",
+        "skip_manual_testing": "no"
+    },
   "events": {
-  
-
-
+ 
   }
 }
-
-          
