@@ -3,8 +3,8 @@
   
   },
   "update_behaviors": {
-        "source_branch": "dev",
-        "destination_branch": "updates/[task:id]/f",
+        "source_branch": "dev134",
+        "destination_branch": "updates/[task:id]/2",
         "auto_start_updates": "no",
         "skip_manual_testing": "no"
     },
