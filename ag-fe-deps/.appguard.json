@@ -1,25 +1,18 @@
 {
-    "integrations": [],
-    "update_behaviors": {
-        "updates/[task:id]": {
+"integrations": {
+  
+  },
+  "update_behavior": {
       "auto_start_updates": "no",
       "skip_manual_testing": "no",
-      "types": [
-        "update_patch_version",
-        "update_minor_version",
-        "update_major_version"
-      ]
-    }
-    },
-    "events": {
- "test_passed": [
-      {
-        "merge_branch": {
-          "source": "updates/[task:id]",
-          "delete_after_merge": "yes",
-          "target": ["dev3"]
-        }
-      }
-    ]
-    }
+      "source_branch": "master",
+      "destination_branch": "dev-env-1000000716nov"
+  },
+  "events": {
+  
+
+
+  }
 }
+
+          
