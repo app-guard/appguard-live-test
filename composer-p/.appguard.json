@@ -1,5 +1,9 @@
 {
-    "integrations": {},
+    "integrations": {
+        "collaboration_tool": {
+          "credential": "sxss"
+        }
+    },
     "update_behavior": {
         "auto_start_updates": "no",
         "skip_manual_testing": "no",
