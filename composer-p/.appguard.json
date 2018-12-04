@@ -25,7 +25,7 @@
             "sendmessage": {
               "title": "New updates available for \"[project:name]\"",
               "message": "We've found the new updates for your project.<br><br>The packages:<br>[task:packages|,][package:name]: [package:current-version] → [package:new-version][/task:packages]<br><br>[task:url]",
-              "color": "red"
+              "color": "#998877"
             }
           }
         ]
