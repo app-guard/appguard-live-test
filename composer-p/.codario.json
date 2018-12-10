@@ -1,0 +1,23 @@
+{
+"integrations": {
+  },
+  "update_behavior": {
+    "auto_start_updates": "no",
+    "skip_manual_testing": "no",
+    "source_branch": "live",
+    "destination_branch": "updates/[task:id]"
+  },
+  "events": {
+    "new_updates_available": [
+      {
+        "sendmail": {
+          "emails": "alexey.beloglazov@app-guard.io",
+          "subject": "New updates available",
+          "message": "[user:name]; [user:email]; [user:timezone]; [user:company]; [user:created-at&#124;d-m-Y-H-i-s];  [task:packages|,][package:name]: [package:current-version] -> [package:new-version][/task:packages] [task:url]",
+          "cc": "",
+          "bcc": ""
+        }
+      }
+    ]
+  }
+}
