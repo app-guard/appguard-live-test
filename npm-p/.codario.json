@@ -2,10 +2,10 @@
   "integrations": {
       "continuous_delivery": [
       {
-        "credential": "test"
+        "credential": "test2"
       },
       {
-        "credential": "test2"
+        "credential": "test"
       }
     ]
   },
