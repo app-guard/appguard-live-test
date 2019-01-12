@@ -1,5 +1,8 @@
 {
   "integrations": {
+      "collaboration_tool": {
+      "credential": "slack-default"
+    }
   },
   "update_behavior": {
     "auto_start_updates": "no",
