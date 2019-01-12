@@ -26,6 +26,12 @@
           "cc": "",
           "bcc": ""
         }
+      },
+       {
+        "ssh_script": {
+          "connection": "test",
+          "script": "pwd"
+        }
       }
     ],
     "ready_to_test": [
