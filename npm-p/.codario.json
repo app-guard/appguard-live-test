@@ -1,8 +1,13 @@
 {
   "integrations": {
-      "collaboration_tool": {
-      "credential": "slack-default"
-    }
+      "continuous_delivery": [
+      {
+        "credential": "test"
+      },
+      {
+        "credential": "test2"
+      }
+    ]
   },
   "update_behavior": {
     "auto_start_updates": "no",
