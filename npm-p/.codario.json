@@ -1,14 +1,6 @@
 {
   "integrations": {
-    
-      "continuous_delivery": [
-      {
-        "credential": "test2"
-      },
-      {
-        "credential": "test"
-      }
-    ]
+      "continuous_delivery": []
   },
   "update_behavior": {
     "auto_start_updates": "no",
@@ -21,16 +13,10 @@
       {
         "sendmail": {
           "emails": "[user:email]",
-          "subject": "New updates are available for [project:name]888888888",
+          "subject": "New updates are available for [project:name]",
           "message": "[snippet:workflow.event.new-updates-available]",
           "cc": "",
           "bcc": ""
-        }
-      },
-       {
-        "ssh_script": {
-          "connection": "test",
-          "script": "pwd"
         }
       }
     ],
