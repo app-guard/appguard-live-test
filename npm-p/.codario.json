@@ -16,8 +16,7 @@
           "subject": "New updates are available for [project:name]",
           "message": "[snippet:workflow.event.new-updates-available]",
           "cc": "",
-          "bcc": "",
-          "get_notification_for": "all_packages"
+          "bcc": ""
         }
       }
     ],
