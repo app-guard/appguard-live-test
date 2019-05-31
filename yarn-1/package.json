@@ -6,10 +6,11 @@
   "author": "Alexey Beloglazov <beloglazov91@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "3.0.0",
-    "verdaccio": "3.10.0"
+    "fs-extra": "~3.0.0",
+    "verdaccio": "~3.10.0"
   },
   "devDependencies": {
-    "simditor": "2.3.21"
+    "@angular-devkit/core": "^0.8.9",
+    "simditor": "~2.3.21"
   }
 }
