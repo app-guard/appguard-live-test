@@ -6,7 +6,7 @@
     "skip_manual_testing": "no",
     "source_branch": "yarn",
     "destination_branch": "updates/[task:id]",
-    "handle_packages": "dev_and_prod",
+    "handle_packages": "prod_only",
     "create_tasks_for": "all_packages"
   },
   "events": {
