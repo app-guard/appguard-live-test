@@ -1,17 +1,8 @@
 {
   "integrations": {
-    "project_management_system": {
-      "credential": "jira-default",
-      "project": "AD",
-      "tracker": "Task",
-      "priority": "Low",
-      "task_status_to_codario_mapping": {
-        "In Progress": "execute_update",
-        "Done": "closed"
-      },
-      "task_status_from_codario_mapping": {
-        "closed": "Done"
-      }
+    "git_provider": {
+      "credential": "user:github",
+      "target": "new2"
     }
   },
   "update_behavior": {
@@ -23,36 +14,17 @@
     "create_tasks_for": "all_packages"
   },
   "events": {
-    "new_updates_available": [
+    "test_passed": [
       {
-        "sendmail": {
-          "emails": "[user:email]",
-          "subject": "New updates are available for [project:name]",
-          "message": "[snippet:workflow.event.new-updates-available]",
-          "cc": "",
-          "bcc": ""
+        "accept_pull_request": {
+          "delete_source_branch": "yes"
         }
       }
     ],
-    "ready_to_test": [
+    "test_failed": [
       {
-        "sendmail": {
-          "emails": "[user:email]",
-          "subject": "A task for [project:name] is ready for testing",
-          "message": "[snippet:workflow.event.ready-to-test]",
-          "cc": "",
-          "bcc": ""
-        }
-      }
-    ],
-    "failed": [
-      {
-        "sendmail": {
-          "emails": "[user:email]",
-          "subject": "A task error occurred in [project:name]",
-          "message": "[snippet:workflow.event.failed]",
-          "cc": "",
-          "bcc": ""
+        "decline_pull_request": {
+          "delete_source_branch": "no"
         }
       }
     ]
