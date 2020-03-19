@@ -14,6 +14,17 @@
     "create_tasks_for": "all_packages"
   },
   "events": {
+    "new_updates_available": [
+      {
+        "sendmail": {
+          "emails": "test@mail-composer.com,test2@mail-composer.com",
+          "subject": "Test subject - Composer Project",
+          "message": "[task:packages|,|main+sub+with_vulnerabilities+without_vulnerabilities][package:name]: [package:current-version] -> [package:new-version][/task:packages] | URL: [project:url]",
+          "cc": "",
+          "bcc": ""
+        }
+      }  
+    ],
     "test_passed": [
       {
         "accept_pull_request": {
