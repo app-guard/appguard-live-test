@@ -1,8 +1,7 @@
 {
   "integrations": {
-    "git_provider": {
-      "credential": "user:github",
-      "target": "new2"
+  "collaboration_tool": {
+      "credential": "slack-demo"
     }
   },
   "update_behavior": {
@@ -14,17 +13,34 @@
     "create_tasks_for": "all_packages"
   },
   "events": {
-    "test_passed": [
+    "new_updates_available": [
       {
-        "accept_pull_request": {
-          "delete_source_branch": "yes"
+        "sendmessage": {
+          "title": "New updates available for \"[project:name]\"",
+          "message": "We've found the new updates for your project.\n\nThe packages:\n[task:packages|, ][package:name]: [package:current-version] → [package:new-version][/task:packages]",
+          "color": "#998877"
         }
       }
     ],
-    "test_failed": [
+    "ready_to_test": [
       {
-        "decline_pull_request": {
-          "delete_source_branch": "no"
+        "sendmail": {
+          "emails": "[user:email]",
+          "subject": "A task for [project:name] is ready for testing",
+          "message": "[snippet:workflow.event.ready-to-test]",
+          "cc": "",
+          "bcc": ""
+        }
+      }
+    ],
+    "failed": [
+      {
+        "sendmail": {
+          "emails": "[user:email]",
+          "subject": "A task error occurred in [project:name]",
+          "message": "[snippet:workflow.event.failed]",
+          "cc": "",
+          "bcc": ""
         }
       }
     ]
